@@ -1,0 +1,70 @@
+Left
+
+Calibration results after optimization (with uncertainties):
+
+Focal Length:          fc = [ 510.44117   508.21324 ] +/- [ 9.97553   10.60244 ]
+Principal point:       cc = [ 364.91235   244.67363 ] +/- [ 12.06721   9.41623 ]
+Skew:             alpha_c = [ 0.00000 ] +/- [ 0.00000  ]   => angle of pixel axes = 90.00000 +/- 0.00000 degrees
+Distortion:            kc = [ 0.39961   -0.91032   -0.01881   0.04856  0.00000 ] +/- [ 0.07894   0.27115   0.00793   0.01658  0.00000 ]
+Pixel error:          err = [ 0.27745   0.30919 ]
+
+Right
+
+
+Calibration results after optimization (with uncertainties):
+
+Focal Length:          fc = [ 417.79630   344.36406 ] +/- [ 16.66588   14.27825 ]
+Principal point:       cc = [ 480.60057   358.87279 ] +/- [ 15.27888   11.25611 ]
+Skew:             alpha_c = [ 0.00000 ] +/- [ 0.00000  ]   => angle of pixel axes = 90.00000 +/- 0.00000 degrees
+Distortion:            kc = [ -0.23752   0.09409   -0.06037   -0.07353  0.00000 ] +/- [ 0.03596   0.04176   0.01003   0.00810  0.00000 ]
+Pixel error:          err = [ 0.28443   0.33634 ]
+
+Note: The numerical errors are approximately three times the standard deviations (for reference).
+
+
+
+
+
+
+Intrinsic parameters of left camera:
+
+Focal Length:          fc_left = [ 510.44117   508.21324 ] ± [ 9.97553   10.60244 ]
+Principal point:       cc_left = [ 364.91235   244.67363 ] ± [ 12.06721   9.41623 ]
+Skew:             alpha_c_left = [ 0.00000 ] ± [ 0.00000  ]   => angle of pixel axes = 90.00000 ± 0.00000 degrees
+Distortion:            kc_left = [ 0.39961   -0.91032   -0.01881   0.04856  0.00000 ] ± [ 0.07894   0.27115   0.00793   0.01658  0.00000 ]
+
+
+Intrinsic parameters of right camera:
+
+Focal Length:          fc_right = [ 417.79630   344.36406 ] ± [ 16.66588   14.27825 ]
+Principal point:       cc_right = [ 480.60057   358.87279 ] ± [ 15.27888   11.25611 ]
+Skew:             alpha_c_right = [ 0.00000 ] ± [ 0.00000  ]   => angle of pixel axes = 90.00000 ± 0.00000 degrees
+Distortion:            kc_right = [ -0.23752   0.09409   -0.06037   -0.07353  0.00000 ] ± [ 0.03596   0.04176   0.01003   0.00810  0.00000 ]
+
+
+Extrinsic parameters (position of right camera wrt left camera):
+
+Rotation vector:             om = [ 0.31032   0.71111  0.04160 ]
+Translation vector:           T = [ -1050.62339   165.18654  -2.07806 ]
+
+
+
+
+
+# Test
+Rotation vector:             om = [ -0.31032   -0.71111  -0.04160 ]
+Translation vector:           T = [ 761.61162   -69.35756  754.57372 ]
+
+
+
+
+
+Rotation vector:             om = [ 0.13473   0.94829  -0.00930 ] ± [ 0.10225   0.18035  0.04334 ]
+Translation vector:           T = [ -741.75745   -7.63728  404.21316 ] ± [ 79.98786   31.19956  143.21492 ]
+
+
+
+
+Rotation vector:             om = [ -0.12012   0.84748  -0.06659 ] ± [ 0.07344   0.08487  0.02891 ]
+Translation vector:           T = [ -815.60688   46.73029  244.42398 ] ± [ 25.00015   17.89832  62.53314 ]
+
